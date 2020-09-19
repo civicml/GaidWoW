@@ -286,6 +286,13 @@ namespace GaidWoW
                 comboBox2.Text = "";
                 checkBox2.Checked = false;
             }
+            else
+            {
+                comboBox1.Items.Clear();
+                comboBox1.Text = ""; 
+                comboBox2.Items.Clear();
+                comboBox2.Text = "";
+            }
         }
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
@@ -299,6 +306,14 @@ namespace GaidWoW
                 comboBox2.Text = "";
                 checkBox1.Checked = false;
             }
+            else
+            {
+                comboBox1.Items.Clear();
+                comboBox1.Text = "";
+                comboBox2.Items.Clear();
+                comboBox2.Text = "";
+            }
         }
+        
     }
 }
