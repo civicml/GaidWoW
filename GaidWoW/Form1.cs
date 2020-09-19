@@ -9,6 +9,8 @@ namespace GaidWoW
         public Form1()
         {
             InitializeComponent();
+            comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList; //запрет на ввод
+            comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList; //запрет на ввод
         }
         private void button1_Click(object sender, EventArgs e)
         {
