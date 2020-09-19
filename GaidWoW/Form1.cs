@@ -157,6 +157,9 @@ namespace GaidWoW
                             break;
                     }
                     break;
+                default:
+                    MessageBox.Show("Вы что-то не так сделали...");
+                    break;
             }
         }
 
@@ -204,6 +207,7 @@ namespace GaidWoW
                     comboBox2.Items.Clear();
                     comboBox2.Items.AddRange(new string[] { "Лед", "Огонь", "Тайная магия" });
                     break;
+                
             }
         }
 
