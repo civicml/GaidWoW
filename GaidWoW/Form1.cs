@@ -29,6 +29,9 @@ namespace GaidWoW
                         case ("Страж"):
                             System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-druidu-tanku-4-3");
                             break;
+                        default:
+                            MessageBox.Show("Вы что-то не так сделали...");
+                            break;
                     }
                     break;
                 case ("Воин"):
@@ -42,6 +45,9 @@ namespace GaidWoW
                             break;
                         case ("Защита"):
                             System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-varu-tanku-4-3");
+                            break;
+                        default:
+                            MessageBox.Show("Вы что-то не так сделали...");
                             break;
                     }
                     break;
@@ -57,6 +63,9 @@ namespace GaidWoW
                         case ("Тьма"):
                             System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-shp-pristu-4-3");
                             break;
+                        default:
+                            MessageBox.Show("Вы что-то не так сделали...");
+                            break;
                     }
                     break;
                 case ("Чернокнижник"):
@@ -70,6 +79,9 @@ namespace GaidWoW
                             break;
                         case ("Разрушение"):
                             System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-destro-loku-4-3");
+                            break;
+                        default:
+                            MessageBox.Show("Вы что-то не так сделали...");
                             break;
                     }
                     break;
@@ -85,6 +97,9 @@ namespace GaidWoW
                         case ("Скрытность"):
                             System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-shd-roge-4-3");
                             break;
+                        default:
+                            MessageBox.Show("Вы что-то не так сделали...");
+                            break;
                     }
                     break;
                 case ("Шаман"):
@@ -98,6 +113,9 @@ namespace GaidWoW
                             break;
                         case ("Исцеление"):
                             System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-restor-shamanu-4-3");
+                            break;
+                        default:
+                            MessageBox.Show("Вы что-то не так сделали...");
                             break;
                     }
                     break;
@@ -113,6 +131,9 @@ namespace GaidWoW
                         case ("Воздаяние"):
                             System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-retri-paladinu-4-3-wow");
                             break;
+                        default:
+                            MessageBox.Show("Вы что-то не так сделали...");
+                            break;
                     }
                     break;
                 case ("Охотник"):
@@ -126,6 +147,9 @@ namespace GaidWoW
                             break;
                         case ("Выживание"):
                             System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-surv-hantu-4-3");
+                            break;
+                        default:
+                            MessageBox.Show("Вы что-то не так сделали...");
                             break;
                     }
                     break;
@@ -141,6 +165,9 @@ namespace GaidWoW
                         case ("Нечестивость"):
                             System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-anholi-dk-4-3");
                             break;
+                        default:
+                            MessageBox.Show("Вы что-то не так сделали...");
+                            break;
                     }
                     break;
                 case ("Маг"):
@@ -154,6 +181,9 @@ namespace GaidWoW
                             break;
                         case ("Тайная магия"):
                             System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-arkan-magu-4-3");
+                            break;
+                        default:
+                            MessageBox.Show("Вы что-то не так сделали...");
                             break;
                     }
                     break;
