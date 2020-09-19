@@ -285,6 +285,7 @@ namespace GaidWoW
                 comboBox2.Items.Clear();
                 comboBox2.Text = "";
                 checkBox2.Checked = false;
+
             }
 
         }
