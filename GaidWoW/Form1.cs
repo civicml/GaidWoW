@@ -1,6 +1,7 @@
 ﻿using System;
-using System.Runtime.Serialization;
+using System.Reflection;
 using System.Windows.Forms;
+using System.Net;
 
 namespace GaidWoW
 {
@@ -557,5 +558,22 @@ namespace GaidWoW
                     "Рыцарь смерти", "Чернокнижник", "Шаман" }); //заполнение классов легион
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Updater();
+        }
+        private void Updater()
+        {
+            Version currentVersion = Assembly.GetExecutingAssembly().GetName().Version;
+            WebClient http = new WebClient();
+            Version latestVersion = new Version(http.DownloadString("http://example.ru/version.txt"));
+            if (latestVersion > currentVersion)
+            {
+                MessageBox.Show("Доступна новая версия");
+            }
+        }
     }
+    
+
 }
