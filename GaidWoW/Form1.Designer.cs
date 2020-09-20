@@ -142,7 +142,7 @@
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "WoWGaid(4.3.4)";
+            this.Text = "WoWGaid";
             this.ResumeLayout(false);
             this.PerformLayout();
 
