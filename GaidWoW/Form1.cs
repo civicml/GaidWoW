@@ -37,7 +37,7 @@ namespace GaidWoW
                                 System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-druidu-tanku-4-3");
                                 break;
                             default:
-                                MessageBox.Show("Вы что-то не так сделали в выборе специализации...");
+                                MessageBox.Show("Выберите специализацию...");
                                 break;
                         }
                         break;
@@ -54,7 +54,7 @@ namespace GaidWoW
                                 System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-varu-tanku-4-3");
                                 break;
                             default:
-                                MessageBox.Show("Вы что-то не так сделали в выборе специализации...");
+                                MessageBox.Show("Выберите специализацию...");
                                 break;
                         }
                         break;
@@ -71,7 +71,7 @@ namespace GaidWoW
                                 System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-shp-pristu-4-3");
                                 break;
                             default:
-                                MessageBox.Show("Вы что-то не так сделали в выборе специализации...");
+                                MessageBox.Show("Выберите специализацию...");
                                 break;
                         }
                         break;
@@ -88,7 +88,7 @@ namespace GaidWoW
                                 System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-destro-loku-4-3");
                                 break;
                             default:
-                                MessageBox.Show("Вы что-то не так сделали в выборе специализации...");
+                                MessageBox.Show("Выберите специализацию...");
                                 break;
                         }
                         break;
@@ -105,7 +105,7 @@ namespace GaidWoW
                                 System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-shd-roge-4-3");
                                 break;
                             default:
-                                MessageBox.Show("Вы что-то не так сделали в выборе специализации...");
+                                MessageBox.Show("Выберите специализацию...");
                                 break;
                         }
                         break;
@@ -122,7 +122,7 @@ namespace GaidWoW
                                 System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-restor-shamanu-4-3");
                                 break;
                             default:
-                                MessageBox.Show("Вы что-то не так сделали в выборе специализации...");
+                                MessageBox.Show("Выберите специализацию...");
                                 break;
                         }
                         break;
@@ -139,7 +139,7 @@ namespace GaidWoW
                                 System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-retri-paladinu-4-3-wow");
                                 break;
                             default:
-                                MessageBox.Show("Вы что-то не так сделали в выборе специализации...");
+                                MessageBox.Show("Выберите специализацию...");
                                 break;
                         }
                         break;
@@ -156,7 +156,7 @@ namespace GaidWoW
                                 System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-surv-hantu-4-3");
                                 break;
                             default:
-                                MessageBox.Show("Вы что-то не так сделали в выборе специализации...");
+                                MessageBox.Show("Выберите специализацию...");
                                 break;
                         }
                         break;
@@ -173,7 +173,7 @@ namespace GaidWoW
                                 System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-anholi-dk-4-3");
                                 break;
                             default:
-                                MessageBox.Show("Вы что-то не так сделали в выборе специализации...");
+                                MessageBox.Show("Выберите специализацию...");
                                 break;
                         }
                         break;
@@ -190,12 +190,12 @@ namespace GaidWoW
                                 System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-arkan-magu-4-3");
                                 break;
                             default:
-                                MessageBox.Show("Вы что-то не так сделали в выборе специализации...");
+                                MessageBox.Show("Выберите специализацию...");
                                 break;
                         }
                         break;
                     default:
-                        MessageBox.Show("Вы что-то не так сделали в выборе класса...");
+                        MessageBox.Show("Выберите класс...");
                         break;
                 }
             }
@@ -220,7 +220,7 @@ namespace GaidWoW
                                 System.Diagnostics.Process.Start("http://wowgaid.ru/class/druid-tank-pve-gajd-legion");
                                 break;
                             default:
-                                MessageBox.Show("Вы что-то не так сделали в выборе специализации...");
+                                MessageBox.Show("Выберите специализацию...");
                                 break;
                         }
                         break;
@@ -237,7 +237,7 @@ namespace GaidWoW
                                 System.Diagnostics.Process.Start("http://wowgaid.ru/class/voin-tank-pve-gajd-legion");
                                 break;
                             default:
-                                MessageBox.Show("Вы что-то не так сделали в выборе специализации...");
+                                MessageBox.Show("Выберите специализацию...");
                                 break;
                         }
                         break;
@@ -254,7 +254,7 @@ namespace GaidWoW
                                 System.Diagnostics.Process.Start("http://wowgaid.ru/class/shp-priest-pve-gajd-wow-legion");
                                 break;
                             default:
-                                MessageBox.Show("Вы что-то не так сделали в выборе специализации...");
+                                MessageBox.Show("Выберите специализацию...");
                                 break;
                         }
                         break;
@@ -271,7 +271,7 @@ namespace GaidWoW
                                 System.Diagnostics.Process.Start("http://wowgaid.ru/class/destro-lok-pve-gajd-legion");
                                 break;
                             default:
-                                MessageBox.Show("Вы что-то не так сделали в выборе специализации...");
+                                MessageBox.Show("Выберите специализацию...");
                                 break;
                         }
                         break;
@@ -288,7 +288,7 @@ namespace GaidWoW
                                 System.Diagnostics.Process.Start("http://wowgaid.ru/class/shd-roga-pve-gajd-legion");
                                 break;
                             default:
-                                MessageBox.Show("Вы что-то не так сделали в выборе специализации...");
+                                MessageBox.Show("Выберите специализацию...");
                                 break;
                         }
                         break;
@@ -305,7 +305,7 @@ namespace GaidWoW
                                 System.Diagnostics.Process.Start("http://wowgaid.ru/class/restor-shaman-pve-gajd-legion");
                                 break;
                             default:
-                                MessageBox.Show("Вы что-то не так сделали в выборе специализации...");
+                                MessageBox.Show("Выберите специализацию...");
                                 break;
                         }
                         break;
@@ -322,7 +322,7 @@ namespace GaidWoW
                                 System.Diagnostics.Process.Start("http://wowgaid.ru/class/retri-paladin-pve-gajd-legion");
                                 break;
                             default:
-                                MessageBox.Show("Вы что-то не так сделали в выборе специализации...");
+                                MessageBox.Show("Выберите специализацию...");
                                 break;
                         }
                         break;
@@ -339,7 +339,7 @@ namespace GaidWoW
                                 System.Diagnostics.Process.Start("http://wowgaid.ru/class/surv-hant-pve-gajd-legion");
                                 break;
                             default:
-                                MessageBox.Show("Вы что-то не так сделали в выборе специализации...");
+                                MessageBox.Show("Выберите специализацию...");
                                 break;
                         }
                         break;
@@ -356,7 +356,7 @@ namespace GaidWoW
                                 System.Diagnostics.Process.Start("http://wowgaid.ru/class/unholy-dk-pve-gajd-wow-legion");
                                 break;
                             default:
-                                MessageBox.Show("Вы что-то не так сделали в выборе специализации...");
+                                MessageBox.Show("Выберите специализацию...");
                                 break;
                         }
                         break;
@@ -373,12 +373,12 @@ namespace GaidWoW
                                 System.Diagnostics.Process.Start("http://wowgaid.ru/class/arkan-mag-pve-gajd-wow-legion");
                                 break;
                             default:
-                                MessageBox.Show("Вы что-то не так сделали в выборе специализации...");
+                                MessageBox.Show("Выберите специализацию...");
                                 break;
                         }
                         break;
                     default:
-                        MessageBox.Show("Вы что-то не так сделали в выборе класса...");
+                        MessageBox.Show("Выберите класс...");
                         break;
                     case ("Охотник на демонов"):
                         switch (comboBox2.Text)
@@ -390,7 +390,7 @@ namespace GaidWoW
                                 System.Diagnostics.Process.Start("http://wowgaid.ru/class/ohotnik-na-demonov-istreblenie-pve-gajd");
                                 break;
                             default:
-                                MessageBox.Show("Вы что-то не так сделали в выборе специализации...");
+                                MessageBox.Show("Выберите специализацию...");
                                 break;
                         }
                         break;
@@ -407,7 +407,7 @@ namespace GaidWoW
                                 System.Diagnostics.Process.Start("http://wowgaid.ru/class/monah-tkach-tumanov-pve-gajd-legion");
                                 break;
                             default:
-                                MessageBox.Show("Вы что-то не так сделали в выборе специализации...");
+                                MessageBox.Show("Выберите специализацию...");
                                 break;
                         }
                         break;
