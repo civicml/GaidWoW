@@ -565,10 +565,17 @@ namespace GaidWoW
         }
         private void Updater()
         {
+            string address = "https://raw.githubusercontent.com/civicml/GaidWoW/master/GaidWoW/version.txt";
             Version currentVersion = Assembly.GetExecutingAssembly().GetName().Version;
-            WebClient http = new WebClient();
-            Version latestVersion = new Version(http.DownloadString("http://example.ru/version.txt"));
-            if (latestVersion > currentVersion)
+            WebClient client = new WebClient();
+            string latestVersion = client.DownloadString(address);
+            string MyVersion = Convert.ToString(currentVersion);
+
+            if (latestVersion.Equals(MyVersion))
+            {
+                MessageBox.Show("Ваша версия последняя, а именно " + MyVersion);
+            }
+            else
             {
                 MessageBox.Show("Доступна новая версия");
             }
