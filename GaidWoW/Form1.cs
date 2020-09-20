@@ -570,14 +570,14 @@ namespace GaidWoW
             WebClient client = new WebClient();
             string latestVersion = client.DownloadString(address);
             string MyVersion = Convert.ToString(currentVersion);
-
+            
             if (latestVersion.Equals(MyVersion))
             {
                 MessageBox.Show("Ваша версия последняя, а именно " + MyVersion);
             }
             else
             {
-                MessageBox.Show("Доступна новая версия");
+                MessageBox.Show("Доступна новая версия " + latestVersion + " на замену " + MyVersion);
             }
         }
     }
