@@ -18,401 +18,12 @@ namespace GaidWoW
         {
             if (checkBox1.Checked == true) //катаклизм
             {
-
-
-                switch (comboBox1.Text)
-                {
-                    case ("Друид"):
-                        switch (comboBox2.Text)
-                        {
-                            case ("Баланс"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-balans-druidu-4-3");
-                                break;
-                            case ("Сила зверя"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-feral-druidu-4-3");
-                                break;
-                            case ("Исцеление"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-restor-druidu-4-3");
-                                break;
-                            case ("Страж"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-druidu-tanku-4-3");
-                                break;
-                            default:
-                                MessageBox.Show("Выберите специализацию...");
-                                break;
-                        }
-                        break;
-                    case ("Воин"):
-                        switch (comboBox2.Text)
-                        {
-                            case ("Оружие"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-arms-varu-4-3");
-                                break;
-                            case ("Неистовство"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-furi-varu-4-3");
-                                break;
-                            case ("Защита"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-varu-tanku-4-3");
-                                break;
-                            default:
-                                MessageBox.Show("Выберите специализацию...");
-                                break;
-                        }
-                        break;
-                    case ("Жрец"):
-                        switch (comboBox2.Text)
-                        {
-                            case ("Послушание"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-dc-pristu-4-3");
-                                break;
-                            case ("Свет"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-holi-pristu-4-3");
-                                break;
-                            case ("Тьма"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-shp-pristu-4-3");
-                                break;
-                            default:
-                                MessageBox.Show("Выберите специализацию...");
-                                break;
-                        }
-                        break;
-                    case ("Чернокнижник"):
-                        switch (comboBox2.Text)
-                        {
-                            case ("Колдовство"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-afli-loku-4-3");
-                                break;
-                            case ("Демонология"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-loku-demonologu-4-3");
-                                break;
-                            case ("Разрушение"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-destro-loku-4-3");
-                                break;
-                            default:
-                                MessageBox.Show("Выберите специализацию...");
-                                break;
-                        }
-                        break;
-                    case ("Разбойник"):
-                        switch (comboBox2.Text)
-                        {
-                            case ("Ликвидация"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-razbojniku-likvidacii-patch-4-2");
-                                break;
-                            case ("Бой"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-combat-roge-4-3");
-                                break;
-                            case ("Скрытность"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-shd-roge-4-3");
-                                break;
-                            default:
-                                MessageBox.Show("Выберите специализацию...");
-                                break;
-                        }
-                        break;
-                    case ("Шаман"):
-                        switch (comboBox2.Text)
-                        {
-                            case ("Стихии"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-elem-shamanu-4-3");
-                                break;
-                            case ("Совершенствование"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-enh-shamanu-4-3");
-                                break;
-                            case ("Исцеление"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-restor-shamanu-4-3");
-                                break;
-                            default:
-                                MessageBox.Show("Выберите специализацию...");
-                                break;
-                        }
-                        break;
-                    case ("Паладин"):
-                        switch (comboBox2.Text)
-                        {
-                            case ("Свет"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-holi-paladinu-4-3");
-                                break;
-                            case ("Защита"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-paladinu-tanku-4-3");
-                                break;
-                            case ("Воздаяние"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-retri-paladinu-4-3-wow");
-                                break;
-                            default:
-                                MessageBox.Show("Выберите специализацию...");
-                                break;
-                        }
-                        break;
-                    case ("Охотник"):
-                        switch (comboBox2.Text)
-                        {
-                            case ("Повелитель зверей"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-bm-xantu-4-3");
-                                break;
-                            case ("Стрельба"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-mm-hantu-4-3");
-                                break;
-                            case ("Выживание"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-surv-hantu-4-3");
-                                break;
-                            default:
-                                MessageBox.Show("Выберите специализацию...");
-                                break;
-                        }
-                        break;
-                    case ("Рыцарь смерти"):
-                        switch (comboBox2.Text)
-                        {
-                            case ("Кровь"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-dk-tanku-4-3");
-                                break;
-                            case ("Лед"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-frost-dk-4-3");
-                                break;
-                            case ("Нечестивость"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-anholi-dk-4-3");
-                                break;
-                            default:
-                                MessageBox.Show("Выберите специализацию...");
-                                break;
-                        }
-                        break;
-                    case ("Маг"):
-                        switch (comboBox2.Text)
-                        {
-                            case ("Лед"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-frost-magu-4-3");
-                                break;
-                            case ("Огонь"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-faer-magu-4-3");
-                                break;
-                            case ("Тайная магия"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-arkan-magu-4-3");
-                                break;
-                            default:
-                                MessageBox.Show("Выберите специализацию...");
-                                break;
-                        }
-                        break;
-                    default:
-                        MessageBox.Show("Выберите класс...");
-                        break;
-                }
+                FTLCataclysm();
             }
 
             if (checkBox2.Checked == true) //легион
             {
-                switch (comboBox1.Text)
-                {
-                    case ("Друид"):
-                        switch (comboBox2.Text)
-                        {
-                            case ("Баланс"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/balans-druid-7-2-legion-pve-gajd");
-                                break;
-                            case ("Сила зверя"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/feral-druid-pve-gajd-wow-legion");
-                                break;
-                            case ("Исцеление"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/restor-druid-pve-gajd-legion");
-                                break;
-                            case ("Страж"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/druid-tank-pve-gajd-legion");
-                                break;
-                            default:
-                                MessageBox.Show("Выберите специализацию...");
-                                break;
-                        }
-                        break;
-                    case ("Воин"):
-                        switch (comboBox2.Text)
-                        {
-                            case ("Оружие"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/arms-var-7-1-pve-gajd");
-                                break;
-                            case ("Неистовство"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/furi-var-pve-gajd-legion");
-                                break;
-                            case ("Защита"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/voin-tank-pve-gajd-legion");
-                                break;
-                            default:
-                                MessageBox.Show("Выберите специализацию...");
-                                break;
-                        }
-                        break;
-                    case ("Жрец"):
-                        switch (comboBox2.Text)
-                        {
-                            case ("Послушание"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/dc-priest-pve-gajd-legion");
-                                break;
-                            case ("Свет"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/holy-priest-pve-gajd-wow-legion");
-                                break;
-                            case ("Тьма"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/shp-priest-pve-gajd-wow-legion");
-                                break;
-                            default:
-                                MessageBox.Show("Выберите специализацию...");
-                                break;
-                        }
-                        break;
-                    case ("Чернокнижник"):
-                        switch (comboBox2.Text)
-                        {
-                            case ("Колдовство"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/afli-lok-pve-gajd-wow-legion");
-                                break;
-                            case ("Демонология"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/chernoknizhnik-demonolog-pve-gajd-legion");
-                                break;
-                            case ("Разрушение"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/destro-lok-pve-gajd-legion");
-                                break;
-                            default:
-                                MessageBox.Show("Выберите специализацию...");
-                                break;
-                        }
-                        break;
-                    case ("Разбойник"):
-                        switch (comboBox2.Text)
-                        {
-                            case ("Ликвидация"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/muti-roga-7-2-pve-gajd-wow-legion");
-                                break;
-                            case ("Головорез"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/razbojnik-golovorez-7-2-pve-gajd");
-                                break;
-                            case ("Скрытность"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/shd-roga-pve-gajd-legion");
-                                break;
-                            default:
-                                MessageBox.Show("Выберите специализацию...");
-                                break;
-                        }
-                        break;
-                    case ("Шаман"):
-                        switch (comboBox2.Text)
-                        {
-                            case ("Стихии"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/elem-shaman-pve-gajd-legion");
-                                break;
-                            case ("Совершенствование"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/enh-shaman-pve-gajd-wow-legion");
-                                break;
-                            case ("Исцеление"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/restor-shaman-pve-gajd-legion");
-                                break;
-                            default:
-                                MessageBox.Show("Выберите специализацию...");
-                                break;
-                        }
-                        break;
-                    case ("Паладин"):
-                        switch (comboBox2.Text)
-                        {
-                            case ("Свет"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/holy-paladin-pve-gajd-legion");
-                                break;
-                            case ("Защита"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/prot-paladin-tank-7-2-pve-gajd");
-                                break;
-                            case ("Воздаяние"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/retri-paladin-pve-gajd-legion");
-                                break;
-                            default:
-                                MessageBox.Show("Выберите специализацию...");
-                                break;
-                        }
-                        break;
-                    case ("Охотник"):
-                        switch (comboBox2.Text)
-                        {
-                            case ("Повелитель зверей"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/bm-hant-7-1-pve-gajd-legion");
-                                break;
-                            case ("Стрельба"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/mm-hant-7-1-pve-gajd-wow-legion");
-                                break;
-                            case ("Выживание"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/surv-hant-pve-gajd-legion");
-                                break;
-                            default:
-                                MessageBox.Show("Выберите специализацию...");
-                                break;
-                        }
-                        break;
-                    case ("Рыцарь смерти"):
-                        switch (comboBox2.Text)
-                        {
-                            case ("Кровь"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/blad-dk-tank-pve-gajd-legion");
-                                break;
-                            case ("Лед"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/frost-dk-pve-gajd-wow-legion");
-                                break;
-                            case ("Нечестивость"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/unholy-dk-pve-gajd-wow-legion");
-                                break;
-                            default:
-                                MessageBox.Show("Выберите специализацию...");
-                                break;
-                        }
-                        break;
-                    case ("Маг"):
-                        switch (comboBox2.Text)
-                        {
-                            case ("Лед"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/frost-mag-pve-gajd-wow-legion");
-                                break;
-                            case ("Огонь"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/faer-mag-pve-gajd-wow-legion");
-                                break;
-                            case ("Тайная магия"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/arkan-mag-pve-gajd-wow-legion");
-                                break;
-                            default:
-                                MessageBox.Show("Выберите специализацию...");
-                                break;
-                        }
-                        break;
-                    default:
-                        MessageBox.Show("Выберите класс...");
-                        break;
-                    case ("Охотник на демонов"):
-                        switch (comboBox2.Text)
-                        {
-                            case ("Месть"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/dh-tank-pve-gajd-ohotnik-na-demonov");
-                                break;
-                            case ("Истребление"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/ohotnik-na-demonov-istreblenie-pve-gajd");
-                                break;
-                            default:
-                                MessageBox.Show("Выберите специализацию...");
-                                break;
-                        }
-                        break;
-                    case ("Монах"):
-                        switch (comboBox2.Text)
-                        {
-                            case ("Хмелевар"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/monah-hmelevar-tank-pve-gajd-legion");
-                                break;
-                            case ("Танцующий с ветром"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/monah-tancuyushhij-s-vetrom-pve-gajd-wow-legion");
-                                break;
-                            case ("Ткач туманов"):
-                                System.Diagnostics.Process.Start("http://wowgaid.ru/class/monah-tkach-tumanov-pve-gajd-legion");
-                                break;
-                            default:
-                                MessageBox.Show("Выберите специализацию...");
-                                break;
-                        }
-                        break;
-                }
+                FTLLegion();
             }
         }
 
@@ -463,7 +74,7 @@ namespace GaidWoW
                         comboBox2.Items.Clear();
                         comboBox2.Items.AddRange(new string[] { "Лед", "Огонь", "Тайная магия" });
                         break;
-                }   
+                }
             }
 
             if (checkBox2.Checked == true) //заполнение спеков легиона
@@ -540,7 +151,7 @@ namespace GaidWoW
                 comboBox1.Items.AddRange(new string[] { "Воин", "Друид", "Жрец", "Маг", "Охотник", "Паладин"
                     , "Разбойник", "Рыцарь смерти", "Чернокнижник", "Шаман" }); //заполнение классов катаклизм
             }
-           
+
         }
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
@@ -554,7 +165,7 @@ namespace GaidWoW
             {
                 checkBox1.Checked = false;
                 comboBox1.Items.AddRange(new string[] { "Воин", "Друид", "Жрец", "Маг", "Монах",
-                    "Охотник", "Охотник на демонов", "Паладин", "Разбойник", 
+                    "Охотник", "Охотник на демонов", "Паладин", "Разбойник",
                     "Рыцарь смерти", "Чернокнижник", "Шаман" }); //заполнение классов легион
             }
         }
@@ -570,10 +181,10 @@ namespace GaidWoW
             WebClient client = new WebClient();
             string latestVersion = client.DownloadString(addressversion);
             string MyVersion = Convert.ToString(currentVersion);
-            
+
             if (latestVersion.Equals(MyVersion))
             {
-                MessageBox.Show("Ваша версия последняя, а именно " + MyVersion);      
+                MessageBox.Show("Ваша версия последняя, а именно " + MyVersion);
             }
             else
             {
@@ -581,6 +192,403 @@ namespace GaidWoW
                 MessageBox.Show("Доступна новая версия " + latestVersion + " на замену " + MyVersion);
                 WebClient webClient = new WebClient();
                 webClient.DownloadFile(addressapp, "GaidWoW(v." + latestVersion + ")" + ".exe");
+            }
+        }
+
+        private void FTLCataclysm()
+        {
+            switch (comboBox1.Text)
+            {
+                case ("Друид"):
+                    switch (comboBox2.Text)
+                    {
+                        case ("Баланс"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-balans-druidu-4-3");
+                            break;
+                        case ("Сила зверя"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-feral-druidu-4-3");
+                            break;
+                        case ("Исцеление"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-restor-druidu-4-3");
+                            break;
+                        case ("Страж"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-druidu-tanku-4-3");
+                            break;
+                        default:
+                            MessageBox.Show("Выберите специализацию...");
+                            break;
+                    }
+                    break;
+                case ("Воин"):
+                    switch (comboBox2.Text)
+                    {
+                        case ("Оружие"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-arms-varu-4-3");
+                            break;
+                        case ("Неистовство"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-furi-varu-4-3");
+                            break;
+                        case ("Защита"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-varu-tanku-4-3");
+                            break;
+                        default:
+                            MessageBox.Show("Выберите специализацию...");
+                            break;
+                    }
+                    break;
+                case ("Жрец"):
+                    switch (comboBox2.Text)
+                    {
+                        case ("Послушание"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-dc-pristu-4-3");
+                            break;
+                        case ("Свет"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-holi-pristu-4-3");
+                            break;
+                        case ("Тьма"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-shp-pristu-4-3");
+                            break;
+                        default:
+                            MessageBox.Show("Выберите специализацию...");
+                            break;
+                    }
+                    break;
+                case ("Чернокнижник"):
+                    switch (comboBox2.Text)
+                    {
+                        case ("Колдовство"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-afli-loku-4-3");
+                            break;
+                        case ("Демонология"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-loku-demonologu-4-3");
+                            break;
+                        case ("Разрушение"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-destro-loku-4-3");
+                            break;
+                        default:
+                            MessageBox.Show("Выберите специализацию...");
+                            break;
+                    }
+                    break;
+                case ("Разбойник"):
+                    switch (comboBox2.Text)
+                    {
+                        case ("Ликвидация"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-razbojniku-likvidacii-patch-4-2");
+                            break;
+                        case ("Бой"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-combat-roge-4-3");
+                            break;
+                        case ("Скрытность"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-shd-roge-4-3");
+                            break;
+                        default:
+                            MessageBox.Show("Выберите специализацию...");
+                            break;
+                    }
+                    break;
+                case ("Шаман"):
+                    switch (comboBox2.Text)
+                    {
+                        case ("Стихии"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-elem-shamanu-4-3");
+                            break;
+                        case ("Совершенствование"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-enh-shamanu-4-3");
+                            break;
+                        case ("Исцеление"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-restor-shamanu-4-3");
+                            break;
+                        default:
+                            MessageBox.Show("Выберите специализацию...");
+                            break;
+                    }
+                    break;
+                case ("Паладин"):
+                    switch (comboBox2.Text)
+                    {
+                        case ("Свет"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-holi-paladinu-4-3");
+                            break;
+                        case ("Защита"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-paladinu-tanku-4-3");
+                            break;
+                        case ("Воздаяние"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-retri-paladinu-4-3-wow");
+                            break;
+                        default:
+                            MessageBox.Show("Выберите специализацию...");
+                            break;
+                    }
+                    break;
+                case ("Охотник"):
+                    switch (comboBox2.Text)
+                    {
+                        case ("Повелитель зверей"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-bm-xantu-4-3");
+                            break;
+                        case ("Стрельба"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-mm-hantu-4-3");
+                            break;
+                        case ("Выживание"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-surv-hantu-4-3");
+                            break;
+                        default:
+                            MessageBox.Show("Выберите специализацию...");
+                            break;
+                    }
+                    break;
+                case ("Рыцарь смерти"):
+                    switch (comboBox2.Text)
+                    {
+                        case ("Кровь"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-dk-tanku-4-3");
+                            break;
+                        case ("Лед"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-frost-dk-4-3");
+                            break;
+                        case ("Нечестивость"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-anholi-dk-4-3");
+                            break;
+                        default:
+                            MessageBox.Show("Выберите специализацию...");
+                            break;
+                    }
+                    break;
+                case ("Маг"):
+                    switch (comboBox2.Text)
+                    {
+                        case ("Лед"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-frost-magu-4-3");
+                            break;
+                        case ("Огонь"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-faer-magu-4-3");
+                            break;
+                        case ("Тайная магия"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/gajd-po-arkan-magu-4-3");
+                            break;
+                        default:
+                            MessageBox.Show("Выберите специализацию...");
+                            break;
+                    }
+                    break;
+                default:
+                    MessageBox.Show("Выберите класс...");
+                    break;
+            }
+        }
+
+        private void FTLLegion()
+        {
+            switch (comboBox1.Text)
+            {
+                case ("Друид"):
+                    switch (comboBox2.Text)
+                    {
+                        case ("Баланс"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/balans-druid-7-2-legion-pve-gajd");
+                            break;
+                        case ("Сила зверя"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/feral-druid-pve-gajd-wow-legion");
+                            break;
+                        case ("Исцеление"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/restor-druid-pve-gajd-legion");
+                            break;
+                        case ("Страж"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/druid-tank-pve-gajd-legion");
+                            break;
+                        default:
+                            MessageBox.Show("Выберите специализацию...");
+                            break;
+                    }
+                    break;
+                case ("Воин"):
+                    switch (comboBox2.Text)
+                    {
+                        case ("Оружие"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/arms-var-7-1-pve-gajd");
+                            break;
+                        case ("Неистовство"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/furi-var-pve-gajd-legion");
+                            break;
+                        case ("Защита"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/voin-tank-pve-gajd-legion");
+                            break;
+                        default:
+                            MessageBox.Show("Выберите специализацию...");
+                            break;
+                    }
+                    break;
+                case ("Жрец"):
+                    switch (comboBox2.Text)
+                    {
+                        case ("Послушание"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/dc-priest-pve-gajd-legion");
+                            break;
+                        case ("Свет"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/holy-priest-pve-gajd-wow-legion");
+                            break;
+                        case ("Тьма"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/shp-priest-pve-gajd-wow-legion");
+                            break;
+                        default:
+                            MessageBox.Show("Выберите специализацию...");
+                            break;
+                    }
+                    break;
+                case ("Чернокнижник"):
+                    switch (comboBox2.Text)
+                    {
+                        case ("Колдовство"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/afli-lok-pve-gajd-wow-legion");
+                            break;
+                        case ("Демонология"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/chernoknizhnik-demonolog-pve-gajd-legion");
+                            break;
+                        case ("Разрушение"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/destro-lok-pve-gajd-legion");
+                            break;
+                        default:
+                            MessageBox.Show("Выберите специализацию...");
+                            break;
+                    }
+                    break;
+                case ("Разбойник"):
+                    switch (comboBox2.Text)
+                    {
+                        case ("Ликвидация"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/muti-roga-7-2-pve-gajd-wow-legion");
+                            break;
+                        case ("Головорез"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/razbojnik-golovorez-7-2-pve-gajd");
+                            break;
+                        case ("Скрытность"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/shd-roga-pve-gajd-legion");
+                            break;
+                        default:
+                            MessageBox.Show("Выберите специализацию...");
+                            break;
+                    }
+                    break;
+                case ("Шаман"):
+                    switch (comboBox2.Text)
+                    {
+                        case ("Стихии"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/elem-shaman-pve-gajd-legion");
+                            break;
+                        case ("Совершенствование"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/enh-shaman-pve-gajd-wow-legion");
+                            break;
+                        case ("Исцеление"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/restor-shaman-pve-gajd-legion");
+                            break;
+                        default:
+                            MessageBox.Show("Выберите специализацию...");
+                            break;
+                    }
+                    break;
+                case ("Паладин"):
+                    switch (comboBox2.Text)
+                    {
+                        case ("Свет"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/holy-paladin-pve-gajd-legion");
+                            break;
+                        case ("Защита"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/prot-paladin-tank-7-2-pve-gajd");
+                            break;
+                        case ("Воздаяние"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/retri-paladin-pve-gajd-legion");
+                            break;
+                        default:
+                            MessageBox.Show("Выберите специализацию...");
+                            break;
+                    }
+                    break;
+                case ("Охотник"):
+                    switch (comboBox2.Text)
+                    {
+                        case ("Повелитель зверей"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/bm-hant-7-1-pve-gajd-legion");
+                            break;
+                        case ("Стрельба"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/mm-hant-7-1-pve-gajd-wow-legion");
+                            break;
+                        case ("Выживание"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/surv-hant-pve-gajd-legion");
+                            break;
+                        default:
+                            MessageBox.Show("Выберите специализацию...");
+                            break;
+                    }
+                    break;
+                case ("Рыцарь смерти"):
+                    switch (comboBox2.Text)
+                    {
+                        case ("Кровь"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/blad-dk-tank-pve-gajd-legion");
+                            break;
+                        case ("Лед"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/frost-dk-pve-gajd-wow-legion");
+                            break;
+                        case ("Нечестивость"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/unholy-dk-pve-gajd-wow-legion");
+                            break;
+                        default:
+                            MessageBox.Show("Выберите специализацию...");
+                            break;
+                    }
+                    break;
+                case ("Маг"):
+                    switch (comboBox2.Text)
+                    {
+                        case ("Лед"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/frost-mag-pve-gajd-wow-legion");
+                            break;
+                        case ("Огонь"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/faer-mag-pve-gajd-wow-legion");
+                            break;
+                        case ("Тайная магия"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/arkan-mag-pve-gajd-wow-legion");
+                            break;
+                        default:
+                            MessageBox.Show("Выберите специализацию...");
+                            break;
+                    }
+                    break;
+                default:
+                    MessageBox.Show("Выберите класс...");
+                    break;
+                case ("Охотник на демонов"):
+                    switch (comboBox2.Text)
+                    {
+                        case ("Месть"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/dh-tank-pve-gajd-ohotnik-na-demonov");
+                            break;
+                        case ("Истребление"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/ohotnik-na-demonov-istreblenie-pve-gajd");
+                            break;
+                        default:
+                            MessageBox.Show("Выберите специализацию...");
+                            break;
+                    }
+                    break;
+                case ("Монах"):
+                    switch (comboBox2.Text)
+                    {
+                        case ("Хмелевар"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/monah-hmelevar-tank-pve-gajd-legion");
+                            break;
+                        case ("Танцующий с ветром"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/monah-tancuyushhij-s-vetrom-pve-gajd-wow-legion");
+                            break;
+                        case ("Ткач туманов"):
+                            System.Diagnostics.Process.Start("http://wowgaid.ru/class/monah-tkach-tumanov-pve-gajd-legion");
+                            break;
+                        default:
+                            MessageBox.Show("Выберите специализацию...");
+                            break;
+                    }
+                    break;
             }
         }
     }
