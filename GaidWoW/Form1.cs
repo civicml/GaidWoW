@@ -31,105 +31,12 @@ namespace GaidWoW
         {
             if (checkBox1.Checked == true) //заполнение спеков катаклизма
             {
-
-                switch (comboBox1.Text)
-                {
-                    case ("Друид"):
-                        comboBox2.Items.Clear();
-                        comboBox2.Items.AddRange(new string[] { "Баланс", "Сила зверя", "Исцеление", "Страж" });
-                        break;
-                    case ("Воин"):
-                        comboBox2.Items.Clear();
-                        comboBox2.Items.AddRange(new string[] { "Оружие", "Неистовство", "Защита" });
-                        break;
-                    case ("Жрец"):
-                        comboBox2.Items.Clear();
-                        comboBox2.Items.AddRange(new string[] { "Послушание", "Свет", "Тьма" });
-                        break;
-                    case ("Чернокнижник"):
-                        comboBox2.Items.Clear();
-                        comboBox2.Items.AddRange(new string[] { "Колдовство", "Демонология", "Разрушение" });
-                        break;
-                    case ("Разбойник"):
-                        comboBox2.Items.Clear();
-                        comboBox2.Items.AddRange(new string[] { "Ликвидация", "Бой", "Скрытность" });
-                        break;
-                    case ("Шаман"):
-                        comboBox2.Items.Clear();
-                        comboBox2.Items.AddRange(new string[] { "Стихии", "Совершенствование", "Исцеление" });
-                        break;
-                    case ("Паладин"):
-                        comboBox2.Items.Clear();
-                        comboBox2.Items.AddRange(new string[] { "Свет", "Защита", "Воздаяние" });
-                        break;
-                    case ("Охотник"):
-                        comboBox2.Items.Clear();
-                        comboBox2.Items.AddRange(new string[] { "Повелитель зверей", "Стрельба", "Выживание" });
-                        break;
-                    case ("Рыцарь смерти"):
-                        comboBox2.Items.Clear();
-                        comboBox2.Items.AddRange(new string[] { "Кровь", "Лед", "Нечестивость" });
-                        break;
-                    case ("Маг"):
-                        comboBox2.Items.Clear();
-                        comboBox2.Items.AddRange(new string[] { "Лед", "Огонь", "Тайная магия" });
-                        break;
-                }
+                FWCCataclysm();               
             }
 
             if (checkBox2.Checked == true) //заполнение спеков легиона
             {
-                switch (comboBox1.Text)
-                {
-                    case ("Друид"):
-                        comboBox2.Items.Clear();
-                        comboBox2.Items.AddRange(new string[] { "Баланс", "Сила зверя", "Исцеление", "Страж" });
-                        break;
-                    case ("Воин"):
-                        comboBox2.Items.Clear();
-                        comboBox2.Items.AddRange(new string[] { "Оружие", "Неистовство", "Защита" });
-                        break;
-                    case ("Жрец"):
-                        comboBox2.Items.Clear();
-                        comboBox2.Items.AddRange(new string[] { "Послушание", "Свет", "Тьма" });
-                        break;
-                    case ("Чернокнижник"):
-                        comboBox2.Items.Clear();
-                        comboBox2.Items.AddRange(new string[] { "Колдовство", "Демонология", "Разрушение" });
-                        break;
-                    case ("Разбойник"):
-                        comboBox2.Items.Clear();
-                        comboBox2.Items.AddRange(new string[] { "Ликвидация", "Головорез", "Скрытность" });
-                        break;
-                    case ("Шаман"):
-                        comboBox2.Items.Clear();
-                        comboBox2.Items.AddRange(new string[] { "Стихии", "Совершенствование", "Исцеление" });
-                        break;
-                    case ("Паладин"):
-                        comboBox2.Items.Clear();
-                        comboBox2.Items.AddRange(new string[] { "Свет", "Защита", "Воздаяние" });
-                        break;
-                    case ("Охотник"):
-                        comboBox2.Items.Clear();
-                        comboBox2.Items.AddRange(new string[] { "Повелитель зверей", "Стрельба", "Выживание" });
-                        break;
-                    case ("Рыцарь смерти"):
-                        comboBox2.Items.Clear();
-                        comboBox2.Items.AddRange(new string[] { "Кровь", "Лед", "Нечестивость" });
-                        break;
-                    case ("Маг"):
-                        comboBox2.Items.Clear();
-                        comboBox2.Items.AddRange(new string[] { "Лед", "Огонь", "Тайная магия" });
-                        break;
-                    case ("Охотник на демонов"):
-                        comboBox2.Items.Clear();
-                        comboBox2.Items.AddRange(new string[] { "Месть", "Истребление" });
-                        break;
-                    case ("Монах"):
-                        comboBox2.Items.Clear();
-                        comboBox2.Items.AddRange(new string[] { "Танцующий с ветром", "Ткач туманов", "Хмелевар" });
-                        break;
-                }
+                FWCLegion();
             }
         }
 
@@ -174,6 +81,7 @@ namespace GaidWoW
         {
             Updater();
         }
+
         private void Updater()
         {
             string addressversion = "https://raw.githubusercontent.com/civicml/GaidWoW/master/GaidWoW/version.txt";
@@ -588,6 +496,108 @@ namespace GaidWoW
                             MessageBox.Show("Выберите специализацию...");
                             break;
                     }
+                    break;
+            }
+        }
+
+        private void FWCCataclysm()
+        {
+            switch (comboBox1.Text)
+            {
+                case ("Друид"):
+                    comboBox2.Items.Clear();
+                    comboBox2.Items.AddRange(new string[] { "Баланс", "Сила зверя", "Исцеление", "Страж" });
+                    break;
+                case ("Воин"):
+                    comboBox2.Items.Clear();
+                    comboBox2.Items.AddRange(new string[] { "Оружие", "Неистовство", "Защита" });
+                    break;
+                case ("Жрец"):
+                    comboBox2.Items.Clear();
+                    comboBox2.Items.AddRange(new string[] { "Послушание", "Свет", "Тьма" });
+                    break;
+                case ("Чернокнижник"):
+                    comboBox2.Items.Clear();
+                    comboBox2.Items.AddRange(new string[] { "Колдовство", "Демонология", "Разрушение" });
+                    break;
+                case ("Разбойник"):
+                    comboBox2.Items.Clear();
+                    comboBox2.Items.AddRange(new string[] { "Ликвидация", "Бой", "Скрытность" });
+                    break;
+                case ("Шаман"):
+                    comboBox2.Items.Clear();
+                    comboBox2.Items.AddRange(new string[] { "Стихии", "Совершенствование", "Исцеление" });
+                    break;
+                case ("Паладин"):
+                    comboBox2.Items.Clear();
+                    comboBox2.Items.AddRange(new string[] { "Свет", "Защита", "Воздаяние" });
+                    break;
+                case ("Охотник"):
+                    comboBox2.Items.Clear();
+                    comboBox2.Items.AddRange(new string[] { "Повелитель зверей", "Стрельба", "Выживание" });
+                    break;
+                case ("Рыцарь смерти"):
+                    comboBox2.Items.Clear();
+                    comboBox2.Items.AddRange(new string[] { "Кровь", "Лед", "Нечестивость" });
+                    break;
+                case ("Маг"):
+                    comboBox2.Items.Clear();
+                    comboBox2.Items.AddRange(new string[] { "Лед", "Огонь", "Тайная магия" });
+                    break;
+            }
+        }
+
+        private void FWCLegion()
+        {
+            switch (comboBox1.Text)
+            {
+                case ("Друид"):
+                    comboBox2.Items.Clear();
+                    comboBox2.Items.AddRange(new string[] { "Баланс", "Сила зверя", "Исцеление", "Страж" });
+                    break;
+                case ("Воин"):
+                    comboBox2.Items.Clear();
+                    comboBox2.Items.AddRange(new string[] { "Оружие", "Неистовство", "Защита" });
+                    break;
+                case ("Жрец"):
+                    comboBox2.Items.Clear();
+                    comboBox2.Items.AddRange(new string[] { "Послушание", "Свет", "Тьма" });
+                    break;
+                case ("Чернокнижник"):
+                    comboBox2.Items.Clear();
+                    comboBox2.Items.AddRange(new string[] { "Колдовство", "Демонология", "Разрушение" });
+                    break;
+                case ("Разбойник"):
+                    comboBox2.Items.Clear();
+                    comboBox2.Items.AddRange(new string[] { "Ликвидация", "Головорез", "Скрытность" });
+                    break;
+                case ("Шаман"):
+                    comboBox2.Items.Clear();
+                    comboBox2.Items.AddRange(new string[] { "Стихии", "Совершенствование", "Исцеление" });
+                    break;
+                case ("Паладин"):
+                    comboBox2.Items.Clear();
+                    comboBox2.Items.AddRange(new string[] { "Свет", "Защита", "Воздаяние" });
+                    break;
+                case ("Охотник"):
+                    comboBox2.Items.Clear();
+                    comboBox2.Items.AddRange(new string[] { "Повелитель зверей", "Стрельба", "Выживание" });
+                    break;
+                case ("Рыцарь смерти"):
+                    comboBox2.Items.Clear();
+                    comboBox2.Items.AddRange(new string[] { "Кровь", "Лед", "Нечестивость" });
+                    break;
+                case ("Маг"):
+                    comboBox2.Items.Clear();
+                    comboBox2.Items.AddRange(new string[] { "Лед", "Огонь", "Тайная магия" });
+                    break;
+                case ("Охотник на демонов"):
+                    comboBox2.Items.Clear();
+                    comboBox2.Items.AddRange(new string[] { "Месть", "Истребление" });
+                    break;
+                case ("Монах"):
+                    comboBox2.Items.Clear();
+                    comboBox2.Items.AddRange(new string[] { "Танцующий с ветром", "Ткач туманов", "Хмелевар" });
                     break;
             }
         }
