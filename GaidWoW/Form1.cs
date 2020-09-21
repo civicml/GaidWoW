@@ -565,21 +565,22 @@ namespace GaidWoW
         }
         private void Updater()
         {
-            string address = "https://raw.githubusercontent.com/civicml/GaidWoW/master/GaidWoW/version.txt";
+            string addressversion = "https://raw.githubusercontent.com/civicml/GaidWoW/master/GaidWoW/version.txt";
             Version currentVersion = Assembly.GetExecutingAssembly().GetName().Version;
             WebClient client = new WebClient();
-            string latestVersion = client.DownloadString(address);
+            string latestVersion = client.DownloadString(addressversion);
             string MyVersion = Convert.ToString(currentVersion);
             
             if (latestVersion.Equals(MyVersion))
             {
-                MessageBox.Show("Ваша версия последняя, а именно " + MyVersion);
-                WebClient webClient = new WebClient();
-                webClient.DownloadFile(address, "GaidWoWs.txt");
+                MessageBox.Show("Ваша версия последняя, а именно " + MyVersion);      
             }
             else
             {
+                string addressapp = "https://github.com/civicml/GaidWoW/blob/master/GaidWoW/obj/Debug/GaidWoW.exe?raw=true";
                 MessageBox.Show("Доступна новая версия " + latestVersion + " на замену " + MyVersion);
+                WebClient webClient = new WebClient();
+                webClient.DownloadFile(addressapp, "GaidWoW(v." + latestVersion + ")" + ".exe");
             }
         }
     }
