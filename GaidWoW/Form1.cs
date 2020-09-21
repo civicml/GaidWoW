@@ -14,6 +14,7 @@ namespace GaidWoW
             comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList; //запрет на ввод
             comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList; //запрет на ввод
         }
+
         private void button1_Click(object sender, EventArgs e)
         {
             if (checkBox1.Checked == true) //катаклизм
@@ -85,19 +86,18 @@ namespace GaidWoW
         private void Updater()
         {
             string addressversion = "https://raw.githubusercontent.com/civicml/GaidWoW/master/GaidWoW/version.txt";
-            Version currentVersion = Assembly.GetExecutingAssembly().GetName().Version;
+            string currentVersion = Assembly.GetExecutingAssembly().GetName().Version.ToString();
             WebClient client = new WebClient();
             string latestVersion = client.DownloadString(addressversion);
-            string MyVersion = Convert.ToString(currentVersion);
-
-            if (latestVersion.Equals(MyVersion))
+            
+            if (latestVersion.Equals(currentVersion))
             {
-                MessageBox.Show("Ваша версия последняя, а именно " + MyVersion);
+                MessageBox.Show("Ваша версия последняя, а именно " + currentVersion);
             }
             else
             {
                 string addressapp = "https://github.com/civicml/GaidWoW/blob/master/GaidWoW/obj/Debug/GaidWoW.exe?raw=true";
-                MessageBox.Show("Доступна новая версия " + latestVersion + " на замену " + MyVersion);
+                MessageBox.Show("Доступна новая версия " + latestVersion + " на замену " + currentVersion);
                 WebClient webClient = new WebClient();
                 webClient.DownloadFile(addressapp, "GaidWoW(v." + latestVersion + ")" + ".exe");
             }
