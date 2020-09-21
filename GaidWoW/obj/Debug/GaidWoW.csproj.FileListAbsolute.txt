@@ -1,0 +1,10 @@
+C:\Users\Silent\Desktop\PythonApplication1\MyProject\GaidWoW_4.3.4\GaidWoW\bin\Debug\GaidWoW.exe.config
+C:\Users\Silent\Desktop\PythonApplication1\MyProject\GaidWoW_4.3.4\GaidWoW\bin\Debug\GaidWoW.exe
+C:\Users\Silent\Desktop\PythonApplication1\MyProject\GaidWoW_4.3.4\GaidWoW\bin\Debug\GaidWoW.pdb
+C:\Users\Silent\Desktop\PythonApplication1\MyProject\GaidWoW_4.3.4\GaidWoW\obj\Debug\GaidWoW.csprojAssemblyReference.cache
+C:\Users\Silent\Desktop\PythonApplication1\MyProject\GaidWoW_4.3.4\GaidWoW\obj\Debug\GaidWoW.Form1.resources
+C:\Users\Silent\Desktop\PythonApplication1\MyProject\GaidWoW_4.3.4\GaidWoW\obj\Debug\GaidWoW.Properties.Resources.resources
+C:\Users\Silent\Desktop\PythonApplication1\MyProject\GaidWoW_4.3.4\GaidWoW\obj\Debug\GaidWoW.csproj.GenerateResource.cache
+C:\Users\Silent\Desktop\PythonApplication1\MyProject\GaidWoW_4.3.4\GaidWoW\obj\Debug\GaidWoW.csproj.CoreCompileInputs.cache
+C:\Users\Silent\Desktop\PythonApplication1\MyProject\GaidWoW_4.3.4\GaidWoW\obj\Debug\GaidWoW.exe
+C:\Users\Silent\Desktop\PythonApplication1\MyProject\GaidWoW_4.3.4\GaidWoW\obj\Debug\GaidWoW.pdb

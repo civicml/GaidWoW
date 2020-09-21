@@ -574,6 +574,8 @@ namespace GaidWoW
             if (latestVersion.Equals(MyVersion))
             {
                 MessageBox.Show("Ваша версия последняя, а именно " + MyVersion);
+                WebClient webClient = new WebClient();
+                webClient.DownloadFile(address, "GaidWoWs.txt");
             }
             else
             {

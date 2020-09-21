@@ -83,6 +83,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="obj\Debug\GaidWoW.exe" />
     <Content Include="version.txt" />
     <Content Include="worldofwacraft_14665.ico" />
   </ItemGroup>
