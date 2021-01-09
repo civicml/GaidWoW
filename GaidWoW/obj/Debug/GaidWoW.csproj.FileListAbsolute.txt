@@ -8,3 +8,13 @@ C:\Users\Silent\Desktop\PythonApplication1\MyProject\GaidWoW_4.3.4\GaidWoW\obj\D
 C:\Users\Silent\Desktop\PythonApplication1\MyProject\GaidWoW_4.3.4\GaidWoW\obj\Debug\GaidWoW.csproj.CoreCompileInputs.cache
 C:\Users\Silent\Desktop\PythonApplication1\MyProject\GaidWoW_4.3.4\GaidWoW\obj\Debug\GaidWoW.exe
 C:\Users\Silent\Desktop\PythonApplication1\MyProject\GaidWoW_4.3.4\GaidWoW\obj\Debug\GaidWoW.pdb
+E:\Development\ReposGit\civicml\GaidWoW\GaidWoW\bin\Debug\GaidWoW.exe.config
+E:\Development\ReposGit\civicml\GaidWoW\GaidWoW\bin\Debug\GaidWoW.exe
+E:\Development\ReposGit\civicml\GaidWoW\GaidWoW\bin\Debug\GaidWoW.pdb
+E:\Development\ReposGit\civicml\GaidWoW\GaidWoW\obj\Debug\GaidWoW.csprojAssemblyReference.cache
+E:\Development\ReposGit\civicml\GaidWoW\GaidWoW\obj\Debug\GaidWoW.Form1.resources
+E:\Development\ReposGit\civicml\GaidWoW\GaidWoW\obj\Debug\GaidWoW.Properties.Resources.resources
+E:\Development\ReposGit\civicml\GaidWoW\GaidWoW\obj\Debug\GaidWoW.csproj.GenerateResource.cache
+E:\Development\ReposGit\civicml\GaidWoW\GaidWoW\obj\Debug\GaidWoW.csproj.CoreCompileInputs.cache
+E:\Development\ReposGit\civicml\GaidWoW\GaidWoW\obj\Debug\GaidWoW.exe
+E:\Development\ReposGit\civicml\GaidWoW\GaidWoW\obj\Debug\GaidWoW.pdb
